@@ -54,7 +54,7 @@ int main()
     // Health check
     CROW_ROUTE(app, "/")
     ([] {
-        return "bombo";
+        return "Url shortener service is running";
     });
 
     // Create shortened URL
